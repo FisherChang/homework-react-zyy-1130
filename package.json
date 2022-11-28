@@ -15,7 +15,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .ts --ext .tsx src",
+    "lint:create": "eslint --init",
+    "lint_fix": "eslint --ext .ts --ext .tsx src --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +37,25 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@rsuite/icons": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.30.8-alpha.13",
+    "@typescript-eslint/parser": "^5.30.8-alpha.13",
+    "css": "^3.0.0",
+    "css-loader": "^6.7.2",
+    "eslint": "8.22.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "prettier": "^2.7.1",
+    "react-router-dom": "^6.4.3",
+    "rsuite": "^5.22.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0"
   }
 }
