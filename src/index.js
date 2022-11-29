@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import TopPage from "./topPage/topPage";
+import Header from "./header/header";
 import SideBar from "./sideBar/sideBar";
-import sideItems from "./sideItems.json"
+import menuItems from "./menuItems.json"
 
 class FullPage extends React.Component{
     render() {
         return(
             <div className="fullPage">
                 <header className="headerPage">
-                    <TopPage />
+                    <Header />
                 </header>
                 <section className="contentPage">
-                    <SideBar sideItems={sideItems}/>
+                    <SideBar menuItems={menuItems} />
                 </section>
             </div>
         );
