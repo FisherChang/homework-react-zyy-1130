@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "className":"all",
+    "name": "ALL"
+  },
+  {
+    "id": 2,
+    "className":"physical",
+    "name": "PHYSICAL"
+  },
+  {
+    "id": 3,
+    "className":"virtual",
+    "name": "VIRTUAL"
+  }
+]
