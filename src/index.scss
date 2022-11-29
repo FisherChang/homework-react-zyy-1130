@@ -18,6 +18,14 @@ body{
     position:fixed;
   }
 
+  .menu{
+    width: 20%;
+    height:1100px;
+    background-color: $dark_gray;
+    position: fixed;
+    margin-top: 65px;
+  }
+
   .agentPage{
     display: flex;
     width:100%;
