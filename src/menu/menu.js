@@ -2,23 +2,23 @@ import React from "react";
 import './menu.scss';
 import '../ASSETS/font_icons/fonts.css';
 import {Link, BrowserRouter, Route, Routes} from "react-router-dom";
-import Content from "../content/content";
-import HomePage from "../homePage";
+import Agent from "../agent/agent";
+import Home from "../home";
 
 function Menu ({menuItems}){
     return(
         <aside className="menu">
             <BrowserRouter>
                 <Routes>
-                    <Route path="/content" element={<Content/>} />
-                    <Route path="/home" element={<HomePage />} />
+                    <Route path="/agent" element={<Agent/>} />
+                    <Route path="/home" element={<Home />} />
                 </Routes>
                 <ul className="menuList">
                     {menuItems.map((item)=>(
                         <li key={item.id}>
                             {
                                 item.label==="AGENT"
-                                    ? <Link className="link" to="/content">
+                                    ? <Link className="link" to="/agent">
                                         <i className={item.icon}></i>
                                         {item.label}</Link>
                                     : <Link className="link" to="/home">
