@@ -5,7 +5,7 @@ import {Link, BrowserRouter, Route, Routes} from "react-router-dom";
 import Content from "../content/content";
 import HomePage from "../homePage";
 
-function SideBar ({sideItems}){
+function SideBar ({menuItems}){
     return(
         <aside className="sideBar">
             <BrowserRouter>
@@ -13,8 +13,8 @@ function SideBar ({sideItems}){
                     <Route path="/content" element={<Content/>} />
                     <Route path="/home" element={<HomePage />} />
                 </Routes>
-                <ul className="sideList">
-                    {sideItems.map((item)=>(
+                <ul className="menuList">
+                    {menuItems.map((item)=>(
                         <li key={item.id}>
                             {
                                 item.label==="AGENT"
@@ -28,7 +28,7 @@ function SideBar ({sideItems}){
                         </li>
                     ))}
                 </ul>
-                <ul className="history-content">
+                <ul className="history">
                     <h3>History</h3>
                     <ul className="history-info">
                         <li>bjstdmngbgr02/Acceptance_test</li>

@@ -3,13 +3,12 @@
 .sideBar{
   width: 15%;
   height:1100px;
-  margin: 0;
   background-color: $dark_gray;
   position: fixed;
   margin-top: 65px;
 }
 
-.sideList{
+.menuList{
   padding:1.5rem 0;
   color:$light_white;
   margin-bottom: 16rem;
@@ -39,7 +38,7 @@
   }
 }
 
-.history-content{
+.history{
   h3{
     margin:0;
     padding: 0;
