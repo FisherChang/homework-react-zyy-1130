@@ -1,13 +1,13 @@
 import React from "react";
-import './sideBar.scss';
+import './menu.scss';
 import '../ASSETS/font_icons/fonts.css';
 import {Link, BrowserRouter, Route, Routes} from "react-router-dom";
 import Content from "../content/content";
 import HomePage from "../homePage";
 
-function SideBar ({menuItems}){
+function Menu ({menuItems}){
     return(
-        <aside className="sideBar">
+        <aside className="menu">
             <BrowserRouter>
                 <Routes>
                     <Route path="/content" element={<Content/>} />
@@ -39,4 +39,4 @@ function SideBar ({menuItems}){
     )
 }
 
-export default SideBar;
+export default Menu;

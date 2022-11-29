@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import Header from "./header/header";
-import SideBar from "./sideBar/sideBar";
+import Menu from "./menu/menu";
 import menuItems from "./menuItems.json"
 
 class FullPage extends React.Component{
@@ -13,7 +13,7 @@ class FullPage extends React.Component{
                     <Header />
                 </header>
                 <section className="contentPage">
-                    <SideBar menuItems={menuItems} />
+                    <Menu menuItems={menuItems} />
                 </section>
             </div>
         );
