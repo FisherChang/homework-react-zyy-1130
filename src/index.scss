@@ -4,7 +4,6 @@ body{
   margin:0;
   background-color: $dark_white;
   font-family: AVenir;
-  font-color:$dark_gray;
   overflow: hidden;
 }
 
@@ -19,7 +18,7 @@ body{
     position:fixed;
   }
 
-  .contentPage{
+  .agentPage{
     display: flex;
     width:100%;
     margin:0 100px;

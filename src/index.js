@@ -12,7 +12,7 @@ class FullPage extends React.Component{
                 <header className="headerPage">
                     <Header />
                 </header>
-                <section className="contentPage">
+                <section className="agentPage">
                     <Menu menuItems={menuItems} />
                 </section>
             </div>
