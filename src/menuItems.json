@@ -2,29 +2,21 @@
   {
     "id": 1,
     "icon": "icon-dashboard",
-    "label": "DASHBOARD",
-    "disabled": false,
-    "active": false
+    "label": "DASHBOARD"
   },
   {
     "id": 2,
     "icon": "icon-sitemap",
-    "label": "AGENT",
-    "disabled": false,
-    "active": true
+    "label": "AGENT"
   },
   {
     "id": 3,
     "icon": "icon-boat",
-    "label": "MY CRUISE",
-    "disabled": false,
-    "active": false
+    "label": "MY CRUISE"
   },
   {
     "id": 4,
     "icon": "icon-life-bouy",
-    "label": "HELP",
-    "disabled": false,
-    "active": false
+    "label": "HELP"
   }
 ]
