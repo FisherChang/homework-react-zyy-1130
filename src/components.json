@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "className":"building",
+    "icon": "icon-cog",
+    "name": "Building"
+  },
+  {
+    "id": 2,
+    "className":"idle",
+    "icon": "icon-coffee",
+    "name": "Idle"
+  }
+]
