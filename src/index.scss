@@ -1,0 +1,32 @@
+@import "variables";
+
+body{
+  margin:0;
+  background-color: $dark_white;
+  font-family: AVenir;
+  font-color:$dark_gray;
+  overflow: hidden;
+}
+
+.fullPage{
+  width: 100%;
+  height: 100%;
+  margin:auto;
+  background-color: $dark_white;
+
+  .headerPage{
+    width: 100%;
+    position:fixed;
+  }
+
+  .contentPage{
+    display: flex;
+    width:100%;
+    margin:0 100px;
+    position:fixed;
+  }
+}
+
+
+
+
