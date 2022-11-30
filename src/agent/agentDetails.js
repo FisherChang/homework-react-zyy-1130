@@ -22,7 +22,7 @@ const AgentDetails = ({ agents }) => {
               <i className="icon-folder"></i>
               <p className="location">{location}</p>
             </div>
-            <div className="agentTypeList">
+            <div className="agentType">
               <i className="icon-plus"></i>
               <div className="resource-list">
                 <div className="resource-item">
