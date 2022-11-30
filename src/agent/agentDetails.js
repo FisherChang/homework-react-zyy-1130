@@ -24,23 +24,13 @@ const AgentDetails = ({ agents }) => {
             </div>
             <div className="agentResources">
               <i className="icon-plus"></i>
-              <div className="resource-list">
-                <div className="resource-item">
-                  <span>{resources[0]}</span>
-                  <i className="icon-trash"></i>
-                </div>
-                <div className="resource-item">
-                  <span>{resources[1]}</span>
-                  <i className="icon-trash"></i>
-                </div>
-                <div className="resource-item">
-                  <span>{resources[2]}</span>
-                  <i className="icon-trash"></i>
-                </div>
-                <div className="resource-item">
-                  <span>{resources[3]}</span>
-                  <i className="icon-trash"></i>
-                </div>
+              <div className="resourceList">
+                {resources.map((resource)=>(
+                    <div className="resourceItem" key={resource}>
+                      <span>{resource}</span>
+                      <i className="icon-trash"></i>
+                    </div>
+                  ))}
               </div>
               <div className="deny">
                 <i className="icon-deny"></i>
