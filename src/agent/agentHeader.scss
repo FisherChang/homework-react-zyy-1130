@@ -1,0 +1,74 @@
+@import "../variables";
+.agentHeader{
+  margin:1rem 0;
+}
+
+.components{
+  display: flex;
+  color:$light_white;
+  padding:0;
+  li{
+    margin-right: 2rem;
+    width: 20rem;
+    height: 8.5rem;
+    list-style-type: none;
+  }
+  .building{
+    background-color: $orange;
+    i {
+      animation: rotate 2s infinite;
+      animation-timing-function: linear;
+    }
+    @keyframes rotate {
+      from {rotate:0;}
+      to{rotate:-360deg;}
+    }
+  }
+  .idle{
+    background-color: $green;
+    .name{
+      position: relative;
+      right:8.5rem;
+    }
+  }
+  .name{
+    padding:1rem;
+    position: relative;
+    right:7rem;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  .number{
+    padding-left: 14rem;
+    font-size: 48px;
+  }
+  i{
+    float:left;
+    position: relative;
+    left: 25%;
+    font-size: 9rem;
+    opacity: 20%;
+  }
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 8.5rem;
+  background-color: $light_white;
+  color:black;
+  text-align: center;
+}
+.box-name{
+  font-size: 12px;
+}
+.box-number{
+  padding-top: 2rem;
+  font-size: 20px;
+}
+.physical{
+  margin:0 2rem;
+}
