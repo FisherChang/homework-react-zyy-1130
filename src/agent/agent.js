@@ -3,10 +3,12 @@ import React from "react";
 import './agent.scss';
 import AgentDetails from "./agentDetails";
 import agents from '../db.json';
+import AgentHeader from "./agentHeader";
 
 function Agent (){
     return(
         <section className="agent">
+            <AgentHeader agents={agents} />
             <AgentDetails agents={agents}/>
         </section>
 
