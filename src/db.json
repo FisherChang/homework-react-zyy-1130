@@ -1,5 +1,4 @@
-{
-  "agents": [
+[
     {
       "name": "bjstdmngbdr08.thoughtworks.com",
       "os": "windows",
@@ -156,5 +155,4 @@
       ],
       "id": 12
     }
-  ]
-}
+]
