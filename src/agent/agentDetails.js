@@ -16,7 +16,7 @@ const AgentDetails = ({ agents }) => {
             <div className="agentInfo">
               <i className="icon-desktop"></i>
               <h4>{name}</h4>
-              <p className="status">{status}</p>
+              <p className={`status-${status}`}>{status}</p>
               <i className="icon-info"></i>
               <p className="ip">{ip}</p>
               <i className="icon-folder"></i>

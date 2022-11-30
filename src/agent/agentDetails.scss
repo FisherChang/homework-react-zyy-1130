@@ -17,7 +17,14 @@
     color:$light_blue;
     margin:0;
   }
-  .status{
+  .status-building{
+    margin:0 30px 0 20px;
+    color:$light_white;
+    background-color: $orange;
+    padding:2px 5px;
+    font-size: 14px;
+  }
+  .status-idle{
     margin:0 30px 0 20px;
     color:$light_white;
     background-color: $green;
