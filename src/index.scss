@@ -12,24 +12,15 @@ body{
   height: 100%;
   background-color: $dark_white;
 
-  .headerPage{
-    width: 100%;
-    position:fixed;
-  }
-
   .menu{
     width: 20%;
     height:1100px;
     background-color: $dark_gray;
-    position: fixed;
-    margin-top: 65px;
+    margin-left: 100px;
   }
 
   .agentPage{
-    display: flex;
-    width:100%;
-    margin-left:100px;
-    position:fixed;
+
   }
 }
 
