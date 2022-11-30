@@ -3,14 +3,19 @@ import React from "react";
 import './agent.scss';
 import debin from '../ASSETS/os_icons/debin.png';
 import windows from '../ASSETS/os_icons/windows.png';
-
+import AgentDetails from "./agentDetails";
+import agents from '../../mock-server/db.json';
 
 function Agent (){
     return(
-        <div className="agent">
+        <section className="agent">
             <img src={debin} alt="deb" />
             <img src={windows} alt="win" />
-        </div>
+
+
+            <AgentDetails agents={agents}/>
+        </section>
+
     )
 }
 
