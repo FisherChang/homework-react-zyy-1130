@@ -1,0 +1,95 @@
+@import "../variables";
+
+.agentList{
+  display: flex;
+  max-height: 57rem;
+  color:black;
+  flex-direction: column;
+  overflow: auto;
+}
+.agentItem{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+  background-color: $light_white;
+  height: 100px;
+  h4{
+    color:$light_blue;
+    margin:0;
+  }
+  .status-building{
+    margin:0 30px 0 20px;
+    color:$light_white;
+    background-color: $orange;
+    padding:2px 5px;
+    font-size: 14px;
+  }
+  .status-idle{
+    margin:0 30px 0 20px;
+    color:$light_white;
+    background-color: $green;
+    padding:2px 5px;
+    font-size: 14px;
+  }
+  .ip{
+    margin:0 20px 0 0;
+  }
+  .location{
+    margin:0;
+  }
+}
+
+figure{
+  margin: 10px;
+}
+.agentContent{
+  display: flex;
+  flex-direction: column;
+  i{
+    font-size: 16px;
+    height: 16px;
+  }
+}
+.agentInfo{
+  display: flex;
+  margin:1rem 0;
+  color:$dark_gray;
+  i{
+    opacity: 50%;
+    padding:0 10px 0 2px;
+  }
+}
+.agentResources{
+  display: flex;
+  margin-bottom:1rem;
+}
+
+.icon-plus{
+  background-color: $light_blue;
+  color:$light_white;
+  padding: 5px;
+  margin-right: 5px;
+}
+.resourceList{
+  display: flex;
+  color:$light_gray;
+  width: 500px;
+  margin: 0 100px 0 10px;
+}
+.resourceItem{
+  background-color: $dark_white;
+  margin-right: 10px;
+  padding:5px 10px 0 10px;
+  i{
+    margin-left: 5px;
+  }
+}
+.deny{
+  background-color: $light_blue;
+  color:$light_white;
+  height: 26px;
+  padding:4px 15px 0 10px;
+  i{
+    font-size: 14px;
+  }
+}

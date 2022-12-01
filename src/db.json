@@ -1,5 +1,4 @@
-{
-  "agents": [
+[
     {
       "name": "bjstdmngbdr08.thoughtworks.com",
       "os": "windows",
@@ -45,7 +44,7 @@
     },
     {
       "name": "bjstdmngbdr11.thoughtworks.com",
-      "os": "debian",
+      "os": "debin",
       "status": "building",
       "type": "virtual",
       "ip": "192.168.1.102",
@@ -70,7 +69,7 @@
     },
     {
       "name": "bjstdmngbdr02.thoughtworks.com",
-      "os": "centos",
+      "os": "cent_os",
       "status": "idle",
       "type": "virtual",
       "ip": "192.168.1.103",
@@ -100,7 +99,7 @@
     },
     {
       "name": "bjstdmngbdr22.thoughtworks.com",
-      "os": "centos",
+      "os": "cent_os",
       "status": "idle",
       "type": "virtual",
       "ip": "192.168.1.111",
@@ -156,5 +155,4 @@
       ],
       "id": 12
     }
-  ]
-}
+]

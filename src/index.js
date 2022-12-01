@@ -9,12 +9,8 @@ class FullPage extends React.Component{
     render() {
         return(
             <div className="fullPage">
-                <header className="headerPage">
-                    <Header />
-                </header>
-                <section className="agentPage">
-                    <Menu menuItems={menuItems} />
-                </section>
+                <Header />
+                <Menu menuItems={menuItems} />
             </div>
         );
     }
