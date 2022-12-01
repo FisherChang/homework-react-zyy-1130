@@ -1,7 +1,7 @@
 
 import React from "react";
 import './agent.scss';
-import AgentDetails from "./agentDetails";
+import AgentDetails from "./details/agentDetails";
 import agents from '../db.json';
 import AgentHeader from "./agentHeader";
 
