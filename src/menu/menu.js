@@ -13,7 +13,7 @@ function Menu ({menuItems}){
                     <Route path="/agent" element={<Agent/>} />
                     <Route path="/home" element={<Home />} />
                 </Routes>
-                <ul className="menuList">
+                <ul className="menu-list">
                     {menuItems.map((item)=>(
                         <li key={item.id}>
                             {
@@ -28,8 +28,8 @@ function Menu ({menuItems}){
                         </li>
                     ))}
                 </ul>
-                <ul className="history">
-                    <h3>History</h3>
+                <ul className="history-list">
+                    <h3 className="history-title">History</h3>
                     <ul className="history-info">
                         <li>bjstdmngbgr02/Acceptance_test</li>
                     </ul>

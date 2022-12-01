@@ -1,6 +1,6 @@
 @import "../variables";
 
-.menuList{
+.menu-list{
   padding:1.5rem 0;
   color:$light_white;
   margin-bottom: 16rem;
@@ -31,8 +31,8 @@
   }
 }
 
-.history{
-  h3{
+.history-list{
+  .history-title{
     margin:0;
     padding: 0;
     color:#ccc;
