@@ -3,12 +3,14 @@
     "id": 1,
     "className":"building",
     "icon": "icon-cog",
-    "name": "Building"
+    "name": "Building",
+    "number": 3
   },
   {
     "id": 2,
     "className":"idle",
     "icon": "icon-coffee",
-    "name": "Idle"
+    "name": "Idle",
+    "number": 5
   }
 ]
