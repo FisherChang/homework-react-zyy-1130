@@ -8,10 +8,10 @@ import menuItems from "./menuItems.json"
 class FullPage extends React.Component{
     render() {
         return(
-            <div className="fullPage">
+            <main>
                 <Header />
                 <Menu menuItems={menuItems} />
-            </div>
+            </main>
         );
     }
 }
