@@ -1,13 +1,13 @@
 @import "src/variables";
 
-.agentList{
+.agent-list{
   display: flex;
   max-height: 57rem;
   color:black;
   flex-direction: column;
   overflow: auto;
 }
-.agentItem{
+.agent-item{
   display: flex;
   flex-direction: row;
   margin-bottom: 1.5rem;
@@ -50,7 +50,7 @@ figure{
     height: 16px;
   }
 }
-.agentInfo{
+.basic-info{
   display: flex;
   margin:1rem 0;
   color:$dark_gray;
@@ -59,7 +59,7 @@ figure{
     padding:0 10px 0 2px;
   }
 }
-.agentResources{
+.resources{
   display: flex;
   margin-bottom:1rem;
 }
@@ -70,13 +70,13 @@ figure{
   padding: 5px;
   margin-right: 5px;
 }
-.resourceList{
+.resource-list{
   display: flex;
   color:$light_gray;
   width: 500px;
   margin: 0 100px 0 10px;
 }
-.resourceItem{
+.resource-item{
   background-color: $dark_white;
   margin-right: 10px;
   padding:5px 10px 0 10px;

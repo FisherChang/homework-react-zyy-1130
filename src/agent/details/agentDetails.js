@@ -3,7 +3,7 @@ import "../../ASSETS/font_icons/fonts.css";
 import "./agentDetails.scss";
 
 function BasicInfo(props) {
-  return <div className="agentInfo">
+  return <div className="basic-info">
     <i className="icon-desktop"></i>
     <h4>{props.name}</h4>
     <p className={`status-${props.status}`}>{props.status}</p>
@@ -15,9 +15,9 @@ function BasicInfo(props) {
 }
 
 function getResources(resources) {
-  return <div className="resourceList">
+  return <div className="resource-list">
     {resources.map((resource) => (
-        <div className="resourceItem" key={resource}>
+        <div className="resource-item" key={resource}>
           <span>{resource}</span>
           <i className="icon-trash"></i>
         </div>
@@ -26,7 +26,7 @@ function getResources(resources) {
 }
 
 function ResourceInfo(props) {
-  return <div className="agentResources">
+  return <div className="resources">
     <i className="icon-plus"></i>
     {getResources(props.resources)}
     <div className="deny">
@@ -40,13 +40,13 @@ const AgentDetails = ({ agents }) => {
   // console.log(agents);
 
   return (
-    <section className="agentList">
+    <section className="agent-list">
       {agents.map(({id, ip, location, name, os, resources, status}) => (
-        <div className="agentItem" key={id}>
+        <div className="agent-item" key={id}>
           <figure>
             <img src={require(`../../ASSETS/os_icons/${os}.png`)} alt={os}/>
           </figure>
-          <div className="agentContent">
+          <div className="agent-item-content">
             <BasicInfo name={name} status={status} ip={ip} location={location}/>
             <ResourceInfo resources={resources}/>
           </div>
