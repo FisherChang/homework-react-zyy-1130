@@ -5,6 +5,20 @@ import {Link, BrowserRouter, Route, Routes} from "react-router-dom";
 import Agent from "../agent/agent";
 import Home from "../home";
 
+function getElement(item) {
+    return <li key={item.id}>
+        {
+            item.label === "AGENT"
+                ? <Link className="link" to="/agent">
+                    <i className={item.icon}></i>
+                    {item.label}</Link>
+                : <Link className="link" to="/home">
+                    <i className={item.icon}></i>
+                    {item.label}</Link>
+        }
+    </li>;
+}
+
 function Menu ({menuItems}){
     return(
         <aside className="menu">
@@ -14,19 +28,7 @@ function Menu ({menuItems}){
                     <Route path="/home" element={<Home />} />
                 </Routes>
                 <ul className="menu-list">
-                    {menuItems.map((item)=>(
-                        <li key={item.id}>
-                            {
-                                item.label==="AGENT"
-                                    ? <Link className="link" to="/agent">
-                                        <i className={item.icon}></i>
-                                        {item.label}</Link>
-                                    : <Link className="link" to="/home">
-                                        <i className={item.icon}></i>
-                                        {item.label}</Link>
-                            }
-                        </li>
-                    ))}
+                    {menuItems.map((item)=>getElement(item))}
                 </ul>
                 <ul className="history-list">
                     <h3 className="history-title">History</h3>
