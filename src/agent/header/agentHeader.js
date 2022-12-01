@@ -1,5 +1,5 @@
 import React from "react";
-import "../ASSETS/font_icons/fonts.css";
+import "../../ASSETS/font_icons/fonts.css";
 import "./agentHeader.scss";
 
 const AgentHeader = () => {

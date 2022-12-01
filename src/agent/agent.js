@@ -3,7 +3,7 @@ import React from "react";
 import './agent.scss';
 import AgentDetails from "./details/agentDetails";
 import agents from '../db.json';
-import AgentHeader from "./agentHeader";
+import AgentHeader from "./header/agentHeader";
 
 function Agent (){
     return(
