@@ -1,15 +1,17 @@
 @import "src/variables";
-.agentHeader{
-  margin:1rem 0;
-}
 
-.components{
+
+.agent-header{
   display: flex;
+  margin:1rem 0;
   color:$light_white;
   padding:0;
+  .status{
+    display: flex;
+  }
   li{
     margin-right: 2rem;
-    width: 20rem;
+    width: 18.5rem;
     height: 8.5rem;
     list-style-type: none;
   }
@@ -31,14 +33,14 @@
       right:8.5rem;
     }
   }
-  .name{
+  .status-name{
     padding:1rem;
     position: relative;
     right:7rem;
     font-size: 18px;
     font-weight: bolder;
   }
-  .number{
+  .status-number{
     padding-left: 14rem;
     font-size: 48px;
   }
@@ -51,21 +53,21 @@
   }
 }
 
-.box{
+.types{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 20rem;
+  width: 18.5rem;
   height: 8.5rem;
   background-color: $light_white;
   color:black;
   text-align: center;
 }
-.box-name{
+.type-name{
   font-size: 12px;
 }
-.box-number{
+.type-number{
   padding-top: 2rem;
   font-size: 20px;
 }
