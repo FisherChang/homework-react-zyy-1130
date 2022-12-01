@@ -10,15 +10,15 @@ import avatar from "../ASSETS/logo/avatar.jpg";
 class Header extends React.Component {
   render() {
     return (
-      <header className="header">
+      <header>
         <img className="cruise-logo" src={logo} alt="logo" height="40px" />
         <img className="profile-logo" src={avatar} alt="avatar" height="40px" />
-        <Dropdown className="dropdown">
-          <Dropdown.Item className="item">
+        <Dropdown className="profile-channel">
+          <Dropdown.Item className="profile-item">
             <i className="icon-id-card"></i>
             Profile
           </Dropdown.Item>
-          <Dropdown.Item className="item">
+          <Dropdown.Item className="profile-item">
             <i className="icon-sign-in"></i>
             Sign Out
           </Dropdown.Item>
