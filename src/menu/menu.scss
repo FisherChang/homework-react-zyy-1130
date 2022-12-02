@@ -51,10 +51,6 @@
       list-style-type: disc;
       overflow: hidden;
       text-overflow: ellipsis;
-      &:hover{
-        color:$dark_blue;
-        cursor: pointer;
-      }
     }
   }
 }

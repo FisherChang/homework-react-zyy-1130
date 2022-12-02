@@ -1,9 +1,15 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "../../ASSETS/font_icons/fonts.css";
 import "./agentDetails.scss";
 import {BasicInfo, ResourceInfo} from "./functions";
+import { fetchAgents } from "../api";
 
-const AgentDetails = ({ agents }) => {
+function AgentDetails () {
+  const [agents, setAgents] =useState([]);
+  useEffect(()=>{
+    fetchAgents().then((data)=>setAgents(data));
+  },[])
+
   return (
     <section className="agent-list">
       {agents.map(({id, ip, location, name, os, resources, status}) => (
@@ -19,6 +25,6 @@ const AgentDetails = ({ agents }) => {
       ))}
     </section>
   );
-};
+}
 
 export default AgentDetails;
