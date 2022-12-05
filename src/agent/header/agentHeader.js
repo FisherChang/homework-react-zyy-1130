@@ -5,7 +5,8 @@ import "./agentHeader.scss";
 import status from '../../status.json';
 import types from '../../type.json';
 
-import { StatusList, TypeList } from './functions';
+import {StatusList} from "./components/statusList";
+import {TypeList} from "./components/typeList";
 
 const AgentHeader = () => {
     return(

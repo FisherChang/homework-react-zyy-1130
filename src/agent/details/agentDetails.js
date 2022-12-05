@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from "react";
 import "../../ASSETS/font_icons/fonts.css";
 import "./agentDetails.scss";
-import {BasicInfo, ResourceInfo} from "./functions";
 import { fetchAgents } from "../api";
+import {BasicInfo} from "./components/basicInfo";
+import {ResourceInfo} from "./components/resourceInfo";
 
 function AgentDetails () {
   const [agents, setAgents] =useState([]);
