@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "icon": "icon-dashboard",
+    "name": "DASHBOARD"
+  },
+  {
+    "id": 2,
+    "icon": "icon-sitemap",
+    "label": "AGENT"
+  }
+]

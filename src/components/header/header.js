@@ -1,24 +1,12 @@
 import React from "react";
-import { Dropdown } from "rsuite";
 
 import "./header.scss";
 import "../../assets/font_icons/fonts.css";
 
 import logo from "../../assets/logo/logo.svg";
 import avatar from "../../assets/logo/avatar.jpg";
-
-function ProfileDropdown() {
-    return <Dropdown className="profile-channel">
-        <Dropdown.Item className="profile-item">
-            <i className="icon-id-card"></i>
-            Profile
-        </Dropdown.Item>
-        <Dropdown.Item className="profile-item">
-            <i className="icon-sign-in"></i>
-            Sign Out
-        </Dropdown.Item>
-    </Dropdown>;
-}
+import dropDownItems from '../../json/dropDown.json';
+import {ProfileDropdown} from "./profileDropdown";
 
 class Header extends React.Component {
   render() {
@@ -26,7 +14,7 @@ class Header extends React.Component {
       <header>
           <img className="cruise-logo" src={logo} alt="logo" height="40px"/>
           <img className="profile-logo" src={avatar} alt="avatar" height="40px"/>
-          <ProfileDropdown/>
+          <ProfileDropdown dropDownItems={dropDownItems} />
       </header>
     );
   }
