@@ -1,14 +1,14 @@
 import React from "react";
-import "../../ASSETS/font_icons/fonts.css";
-import "./agentHeader.scss";
+import "../../../../assets/font_icons/fonts.css";
+import "./agentCards.scss";
 
-import status from '../../status.json';
-import types from '../../type.json';
+import status from '../../../../json/status.json';
+import types from '../../../../json/type.json';
 
 import {StatusList} from "./components/statusList";
 import {TypeList} from "./components/typeList";
 
-const AgentHeader = () => {
+const AgentCards = () => {
     return(
         <section className="agent-header">
             <StatusList status_s={status}/>
@@ -17,4 +17,4 @@ const AgentHeader = () => {
     );
 };
 
-export default AgentHeader;
+export default AgentCards;

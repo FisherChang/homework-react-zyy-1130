@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../ASSETS/font_icons/fonts.css";
+import "../../../../../assets/font_icons/fonts.css";
 import "../agentDetails.scss";
 
 export function BasicInfo(props) {

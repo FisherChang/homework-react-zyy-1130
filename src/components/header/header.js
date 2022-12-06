@@ -2,10 +2,10 @@ import React from "react";
 import { Dropdown } from "rsuite";
 
 import "./header.scss";
-import "../ASSETS/font_icons/fonts.css";
+import "../../assets/font_icons/fonts.css";
 
-import logo from "../ASSETS/logo/logo.svg";
-import avatar from "../ASSETS/logo/avatar.jpg";
+import logo from "../../assets/logo/logo.svg";
+import avatar from "../../assets/logo/avatar.jpg";
 
 function ProfileDropdown() {
     return <Dropdown className="profile-channel">

@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
-import "../../ASSETS/font_icons/fonts.css";
+import "../../../../assets/font_icons/fonts.css";
 import "./agentDetails.scss";
-import { fetchAgents } from "../api";
+import { fetchAgents } from "../../api/api";
 import {BasicInfo} from "./components/basicInfo";
 import {ResourceInfo} from "./components/resourceInfo";
 
@@ -16,7 +16,7 @@ function AgentDetails () {
       {agents.map(({id, ip, location, name, os, resources, status}) => (
         <div className="agent-item" key={id}>
           <figure>
-            <img src={require(`../../ASSETS/os_icons/${os}.png`)} alt={os}/>
+            <img src={require(`../../../../assets/os_icons/${os}.png`)} alt={os}/>
           </figure>
           <div className="agent-item-content">
             <BasicInfo name={name} status={status} ip={ip} location={location}/>

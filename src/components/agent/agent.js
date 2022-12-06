@@ -1,15 +1,15 @@
 import React from "react";
 import './agent.scss';
 
-import AgentDetails from "./details/agentDetails";
-import AgentHeader from "./header/agentHeader";
+import AgentDetails from "./components/details/agentDetails";
+import AgentCards from "./components/cards/agentCards";
 
-import agents from '../mock-server/db.json';
+import agents from '../../mock-server/db.json';
 
 function Agent (){
     return(
         <section className="agent">
-            <AgentHeader />
+            <AgentCards />
             <AgentDetails agents={agents} />
         </section>
 

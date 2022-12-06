@@ -1,5 +1,5 @@
 import React from "react";
-import '../agentHeader.scss';
+import '../agentCards.scss';
 export const TypeList = ({types}) => {
     return (
         <div className="types">

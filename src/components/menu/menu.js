@@ -1,6 +1,6 @@
 import React from "react";
 import './menu.scss';
-import '../ASSETS/font_icons/fonts.css';
+import '../../assets/font_icons/fonts.css';
 import {Link, BrowserRouter, Route, Routes} from "react-router-dom";
 import Agent from "../agent/agent";
 import Home from "../home";
