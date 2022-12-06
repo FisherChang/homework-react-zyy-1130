@@ -13,15 +13,19 @@ function GetResources(props) {
     </div>;
 }
 
+function Deny() {
+    return <div className="deny">
+        <i className="icon-deny"></i>
+        <span>Deny</span>
+    </div>;
+}
+
 export function ResourceInfo(props) {
     return (
         <div className="resources">
             <i className="icon-plus"></i>
-            <GetResources resources={props.resources} />
-            <div className="deny">
-                <i className="icon-deny"></i>
-                <span>Deny</span>
-            </div>
+            <GetResources resources={props.resources}/>
+            <Deny/>
         </div>
     );
 
