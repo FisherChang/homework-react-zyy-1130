@@ -1,51 +1,54 @@
 @import "src/variables";
 
-
-.agent-cards{
+.agent-cards {
   display: flex;
-  margin:1rem 0;
-  color:$light_white;
-  padding:0;
-  .status{
+  margin: 1rem 0;
+  color: $light_white;
+  padding: 0;
+  .status {
     display: flex;
   }
-  li{
+  li {
     margin-right: 2rem;
     width: 18.5rem;
     height: 8.5rem;
     list-style-type: none;
   }
-  .building{
+  .building {
     background-color: $orange;
     i {
       animation: rotate 2s infinite;
       animation-timing-function: linear;
     }
     @keyframes rotate {
-      from {rotate:0;}
-      to{rotate:-360deg;}
+      from {
+        rotate: 0;
+      }
+      to {
+        rotate: -360deg;
+      }
     }
   }
-  .idle{
+  .idle {
     background-color: $green;
-    .name{
+    .name {
       position: relative;
-      right:8.5rem;
+      right: 8.5rem;
     }
   }
-  .status-name{
-    padding:1rem;
+  .status-name {
+    padding: 1rem;
     position: relative;
-    right:7rem;
+    right: 7rem;
     font-size: 18px;
     font-weight: bolder;
   }
-  .status-number{
+  .status-number {
     padding-left: 14rem;
     font-size: 48px;
   }
-  i{
-    float:left;
+  i {
+    float: left;
     position: relative;
     left: 25%;
     font-size: 9rem;
@@ -53,7 +56,7 @@
   }
 }
 
-.types{
+.types {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -61,16 +64,16 @@
   width: 18.5rem;
   height: 8.5rem;
   background-color: $light_white;
-  color:black;
+  color: black;
   text-align: center;
 }
-.type-name{
+.type-name {
   font-size: 12px;
 }
-.type-number{
+.type-number {
   padding-top: 2rem;
   font-size: 20px;
 }
-.physical{
-  margin:0 2rem;
+.physical {
+  margin: 0 2rem;
 }

@@ -1,2 +1,2 @@
-function Home(){}
+function Home() {}
 export default Home;

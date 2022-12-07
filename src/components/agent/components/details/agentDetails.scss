@@ -1,148 +1,146 @@
 @import "src/variables";
 
-.agent-list{
+.agent-list {
   display: flex;
   max-height: 57rem;
-  color:black;
+  color: black;
   flex-direction: column;
   overflow: auto;
 }
-.agent-item{
+.agent-item {
   display: flex;
   flex-direction: row;
   margin-bottom: 1.5rem;
   background-color: white;
   height: 100px;
-  h4{
-    color:$light_blue;
-    margin:0;
+  h4 {
+    color: $light_blue;
+    margin: 0;
   }
-  .status-building{
-    margin:0 30px 0 20px;
-    color:$light_white;
+  .status-building {
+    margin: 0 30px 0 20px;
+    color: $light_white;
     background-color: $orange;
-    padding:2px 5px;
+    padding: 2px 5px;
     font-size: 14px;
   }
-  .status-idle{
-    margin:0 30px 0 20px;
-    color:$light_white;
+  .status-idle {
+    margin: 0 30px 0 20px;
+    color: $light_white;
     background-color: $green;
-    padding:2px 5px;
+    padding: 2px 5px;
     font-size: 14px;
   }
-  .ip{
-    margin:0 20px 0 0;
+  .ip {
+    margin: 0 20px 0 0;
   }
-  .location{
-    margin:0;
+  .location {
+    margin: 0;
   }
 }
 
-figure{
+figure {
   margin: 10px;
 }
-.agentContent{
+.agentContent {
   display: flex;
   flex-direction: column;
-  i{
+  i {
     font-size: 16px;
     height: 16px;
   }
 }
-.basic-info{
+.basic-info {
   display: flex;
-  margin:1rem 0;
-  color:$dark_gray;
-  i{
+  margin: 1rem 0;
+  color: $dark_gray;
+  i {
     opacity: 50%;
-    padding:0 10px 0 2px;
+    padding: 0 10px 0 2px;
   }
 }
-.resources{
+.resources {
   display: flex;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
 
-.icon-plus{
+.icon-plus {
   background-color: $light_blue;
-  color:$light_white;
+  color: $light_white;
   padding: 8px 8px 5px 8px;
   margin-right: 5px;
 }
-.resource-list{
+.resource-list {
   display: flex;
-  color:$light_gray;
+  color: $light_gray;
   width: 500px;
   margin: 0 100px 0 10px;
 }
-.resource-item{
+.resource-item {
   background-color: $dark_white;
   margin-right: 10px;
-  padding:5px 10px 0 10px;
-  i{
+  padding: 5px 10px 0 10px;
+  i {
     margin-left: 5px;
   }
 }
-.deny{
+.deny {
   background-color: $light_blue;
-  color:$light_white;
+  color: $light_white;
   height: 26px;
-  padding:4px 15px 0 10px;
-  i{
+  padding: 4px 15px 0 10px;
+  i {
     font-size: 14px;
   }
 }
 
-.add-resource-content{
-  border:$light_blue solid 1px;
+.add-resource-content {
+  border: $light_blue solid 1px;
   background-color: white;
   width: 570px;
   height: 150px;
   position: relative;
   box-shadow: 0 3px 5px #999999;
-
 }
 
-.add-resource-arrow{
-  path{
-    fill:$light_blue;
+.add-resource-arrow {
+  path {
+    fill: $light_blue;
   }
 }
 
-.input-resource{
-  padding:10px;
-  p{
-    color:$light_gray;
-    margin:10px 0;
+.input-resource {
+  padding: 10px;
+  p {
+    color: $light_gray;
+    margin: 10px 0;
   }
-  input{
+  input {
     width: 500px;
     height: 20px;
-    border-color:$dark_white;
+    border-color: $dark_white;
     margin-bottom: 10px;
     font-size: 16px;
-    color:$light_gray;
-    padding:5px 0 5px 10px;
+    color: $light_gray;
+    padding: 5px 0 5px 10px;
     box-shadow: 0 3px 3px #999999;
-    &:focus{
+    &:focus {
       outline: none;
     }
   }
-  button{
+  button {
     height: 35px;
     width: 150px;
     margin: 10px 30px 0 0;
     color: white;
     font-size: 16px;
-    border:0;
-    padding:10px;
+    border: 0;
+    padding: 10px;
   }
-  .button-Add-Resources{
+  .button-Add-Resources {
     background-color: $light-blue;
   }
-  .button-Cancel{
+  .button-Cancel {
     background-color: $dark-gray;
   }
-
 }
