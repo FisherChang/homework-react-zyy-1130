@@ -7,7 +7,12 @@
       "type": "virtual",
       "ip": "192.168.1.80",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 1
     },
     {
@@ -17,7 +22,12 @@
       "type": "virtual",
       "ip": "192.168.1.80",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 2
     },
     {
@@ -27,7 +37,10 @@
       "type": "physical",
       "ip": "192.168.1.117",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari"],
+      "resources": [
+        "Firefox",
+        "Safari"
+      ],
       "id": 3
     },
     {
@@ -37,7 +50,12 @@
       "type": "virtual",
       "ip": "192.168.1.102",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 4
     },
     {
@@ -57,7 +75,12 @@
       "type": "virtual",
       "ip": "192.168.1.103",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 6
     },
     {
@@ -67,7 +90,12 @@
       "type": "physical",
       "ip": "192.168.1.113",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 7
     },
     {
@@ -77,7 +105,10 @@
       "type": "virtual",
       "ip": "192.168.1.111",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Ubuntu", "Chrome"],
+      "resources": [
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 8
     },
     {
@@ -87,7 +118,12 @@
       "type": "virtual",
       "ip": "192.168.1.80",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 10
     },
     {
@@ -97,7 +133,12 @@
       "type": "virtual",
       "ip": "192.168.1.80",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 11
     },
     {
@@ -107,7 +148,12 @@
       "type": "virtual",
       "ip": "192.168.1.80",
       "location": "/var/lib/cruise-agent",
-      "resources": ["Firefox", "Safari", "Ubuntu", "Chrome"],
+      "resources": [
+        "Firefox",
+        "Safari",
+        "Ubuntu",
+        "Chrome"
+      ],
       "id": 12
     }
   ]
