@@ -17,7 +17,7 @@ function AgentDetails () {
       {agents.map(({id, ip, location, name, os, resources, status}) => (
         <div className="agent-item" key={id}>
           <Figure os={os}/>
-          <AgentItemContent name={name} status={status} ip={ip} location={location} resources={resources}/>
+          <AgentItemContent name={name} status={status} ip={ip} location={location} resources={resources} id={id} />
         </div>
       ))}
     </section>

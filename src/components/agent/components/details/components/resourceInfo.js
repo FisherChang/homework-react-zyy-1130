@@ -5,13 +5,11 @@ import {GetResources} from "./getResources";
 import {Deny} from "./deny";
 import {AddResource} from "./addResource";
 
-// import {updateResource} from "../../../api/api";
-
 export function ResourceInfo(props) {
 
     return (
         <div className="resources">
-            <AddResource/>
+            <AddResource id={props.id} resources={props.resources}/>
             <GetResources resources={props.resources}/>
             <Deny/>
         </div>

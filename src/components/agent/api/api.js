@@ -6,7 +6,8 @@ const fetchAgents=()=>
     axios.get(URL).then((response)=>response.data);
 
 const updateResource=(id,newResources)=>
-    axios.patch(`${URL}/${id}`,{resources:`${newResources}`})
+    axios
+        .patch(`${URL}/${id}`,{resources:newResources})
         .then((response)=>response.data);
 
 export { fetchAgents, updateResource };
