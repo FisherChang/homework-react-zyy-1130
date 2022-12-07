@@ -10,7 +10,7 @@ import {TypeList} from "./components/typeList";
 
 const AgentCards = () => {
     return(
-        <section className="agent-header">
+        <section className="agent-cards">
             <StatusList status_s={status}/>
             <TypeList types={types} />
         </section>
