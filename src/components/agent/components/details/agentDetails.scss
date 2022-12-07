@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 1.5rem;
-  background-color: $light_white;
+  background-color: white;
   height: 100px;
   h4{
     color:$light_blue;
@@ -92,4 +92,57 @@ figure{
   i{
     font-size: 14px;
   }
+}
+
+.add-resource-content{
+  border:$light_blue solid 1px;
+  background-color: white;
+  width: 570px;
+  height: 150px;
+  position: relative;
+  box-shadow: 0 3px 5px #999999;
+
+}
+
+.add-resource-arrow{
+  path{
+    fill:$light_blue;
+  }
+}
+
+.input-resource{
+  padding:10px;
+  p{
+    color:$light_gray;
+    margin:10px 0;
+  }
+  input{
+    width: 500px;
+    height: 20px;
+    border-color:$dark_white;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:$light_gray;
+    padding:5px 0 5px 10px;
+    box-shadow: 0 3px 3px #999999;
+    &:focus{
+      outline: none;
+    }
+  }
+  button{
+    height: 35px;
+    width: 150px;
+    margin: 10px 30px 0 0;
+    color: white;
+    font-size: 16px;
+    border:0;
+    padding:10px;
+  }
+  .button-Add-Resources{
+    background-color: $light-blue;
+  }
+  .button-Cancel{
+    background-color: $dark-gray;
+  }
+
 }
