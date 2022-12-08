@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "className":"all",
+    "className": "all",
     "name": "ALL",
     "number": 8
   },
   {
     "id": 2,
-    "className":"physical",
+    "className": "physical",
     "name": "PHYSICAL",
     "number": 4
   },
   {
     "id": 3,
-    "className":"virtual",
+    "className": "virtual",
     "name": "VIRTUAL",
     "number": 4
   }

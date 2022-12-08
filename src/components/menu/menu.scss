@@ -1,52 +1,52 @@
-@import "../variables";
+@import "src/variables";
 
-.menu-list{
-  padding:1.5rem 0;
-  color:$light_white;
+.menu-list {
+  padding: 1.5rem 0;
+  color: $light_white;
   margin-bottom: 16rem;
-  width:100%;
-  li{
+  width: 100%;
+  li {
     display: flex;
     padding: 0.5rem 2rem;
     align-items: center;
     height: 40px;
-    &:hover{
+    &:hover {
       background-color: $light_gray;
-      color:$dark_blue;
+      color: $dark_blue;
       cursor: pointer;
     }
-    .link{
-      color:white;
+    .link {
+      color: white;
       text-decoration: none;
-      &:hover{
+      &:hover {
         background-color: $light_gray;
-        color:$dark_blue;
+        color: $dark_blue;
         cursor: pointer;
       }
     }
-    i{
+    i {
       margin-right: 0.8rem;
       font-size: 20px;
     }
   }
 }
 
-.history-list{
-  .history-title{
-    margin:0;
+.history-list {
+  .history-title {
+    margin: 0;
     padding: 0;
-    color:#ccc;
+    color: #ccc;
     font-size: 24px;
     font-weight: normal;
   }
-  .history-info{
-    color:#999;
+  .history-info {
+    color: #999;
     font-size: 12px;
     max-width: 18rem;
-    max-height:20rem;
-    overflow:auto;
-    padding:0;
-    li{
+    max-height: 20rem;
+    overflow: auto;
+    padding: 0;
+    li {
       padding: 0.4rem 0;
       list-style-type: disc;
       overflow: hidden;
