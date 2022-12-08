@@ -101,20 +101,20 @@ figure {
   height: 150px;
   position: fixed;
   box-shadow: 0 3px 5px #999999;
-  margin:30px;
+  margin: 30px;
 }
 
 .input-resource {
   padding: 10px;
-  .input-explain{
+  .input-explain {
     display: flex;
   }
   p {
     color: $light_gray;
     margin: 5px;
   }
-  .icon-close{
-    color:$light_blue;
+  .icon-close {
+    color: $light_blue;
     margin-left: 150px;
   }
 

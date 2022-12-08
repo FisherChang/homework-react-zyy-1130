@@ -1,6 +1,6 @@
-import React, {useState} from "react";
-import {updateResource} from "../../../../api/api";
-import {ResourceInputBox} from "./resourceInputBox";
+import React, { useState } from "react";
+import { updateResource } from "../../../../api/api";
+import { ResourceInputBox } from "./resourceInputBox";
 
 export function ResourceList(props) {
   const [showElem, setShowElem] = useState("none");
