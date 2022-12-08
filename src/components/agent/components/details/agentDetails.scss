@@ -99,15 +99,16 @@ figure {
   background-color: white;
   width: 570px;
   height: 150px;
-  position: relative;
+  position: fixed;
   box-shadow: 0 3px 5px #999999;
+  margin:30px;
 }
 
-.add-resource-arrow {
+/*.add-resource-arrow {
   path {
     fill: $light_blue;
   }
-}
+}*/
 
 .input-resource {
   padding: 10px;
