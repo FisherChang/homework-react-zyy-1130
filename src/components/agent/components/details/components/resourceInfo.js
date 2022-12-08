@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../../../assets/font_icons/fonts.css";
 import "../agentDetails.scss";
-import { ResourceList } from "./resourceList";
+import { ResourceList } from "./resourceList/resourceList";
 import { Deny } from "./deny";
 
 export function ResourceInfo(props) {
