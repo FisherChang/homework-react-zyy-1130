@@ -112,10 +112,18 @@ figure {
 
 .input-resource {
   padding: 10px;
+  .explains{
+    display: flex;
+  }
   p {
     color: $light_gray;
-    margin: 10px 0;
+    margin: 5px;
   }
+  .icon-close{
+    color:$light_blue;
+    margin-left: 150px;
+  }
+
   input {
     width: 500px;
     height: 20px;
