@@ -1,15 +1,15 @@
 import React from "react";
 import "../../../../../assets/font_icons/fonts.css";
 import "../agentDetails.scss";
-import { GetResources } from "./getResources";
+import { ResourceList } from "./resourceList";
 import { Deny } from "./deny";
-import { AddResource } from "./addResource";
+import { ResourceAddition } from "./resourceAddition";
 
 export function ResourceInfo(props) {
   return (
     <div className="resources">
-      <AddResource id={props.id} resources={props.resources} />
-      <GetResources resources={props.resources} />
+      <ResourceAddition id={props.id} resources={props.resources} />
+      <ResourceList resources={props.resources} />
       <Deny />
     </div>
   );

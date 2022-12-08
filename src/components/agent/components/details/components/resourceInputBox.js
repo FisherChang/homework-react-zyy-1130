@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { updateResource } from "../../../api/api";
 
-export function InputResource(props) {
+export function ResourceInputBox(props) {
   const [resourceItem, setResourceItem] = useState([]);
 
   function handleClickAdd() {

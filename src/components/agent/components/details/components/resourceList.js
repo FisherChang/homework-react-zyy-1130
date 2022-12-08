@@ -1,6 +1,6 @@
 import React from "react";
 
-export function GetResources(props) {
+export function ResourceList(props) {
   return (
     <div className="resource-list">
       {props.resources.map((resource) => (

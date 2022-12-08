@@ -1,15 +1,15 @@
 import Popup from "reactjs-popup";
-import { InputResource } from "./inputResource";
+import { ResourceInputBox } from "./resourceInputBox";
 import React from "react";
 
-export function AddResource(props) {
+export function ResourceAddition(props) {
   return (
     <Popup
       className="add-resource"
       trigger={<i className="icon-plus"></i>}
       position="bottom left"
     >
-      <InputResource id={props.id} resources={props.resources} />
+      <ResourceInputBox id={props.id} resources={props.resources} />
     </Popup>
   );
 }
